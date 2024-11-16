@@ -1,3 +1,1 @@
-Hello WorlD!
-200
-my fav number is: 200
+344 Aschi value 97 TypeCastinga
