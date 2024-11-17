@@ -1,1 +1,4 @@
-344 Aschi value 97 TypeCastinga
+Hello World! 
+Help me by giveing some information! 
+WHat is your age?: 
+your age is 344 Years Old
