@@ -1,16 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int *fun()
 {
-    // int a[5]; static memory
-    int *a = new int [5];
+    // int a[5];
+    int *a = new int[5];
 
-    for(int i =0; i<5; i++){
+    for (int i = 0; i < 5; i++)
+    {
         cin >> a[i];
     }
-    for(int i =0; i<5; i++){
-        cout << a[i] <<" ";
+    return a;
+}
+
+int main()
+{
+    // // int a[5]; static memory
+    // int *a = new int[5];
+    int *a = fun();
+    for (int i = 0; i < 5; i++)
+    {
+        cout << a[i] << " ";
     }
     return 0;
 }
