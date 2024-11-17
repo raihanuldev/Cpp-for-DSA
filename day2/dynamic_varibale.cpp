@@ -1,10 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int* p;
+//defination of stack memory
+
+void dynamicMemory(){
+    int *x = new int;
+    *x = 100;
+    p = x;
+    cout << "From Dynamic Function: " <<*p <<endl;
+    return;
+}
+
 int main(){
-    int x = 10;
-    int *p = new int;
-    *p = 100;
-    cout << *p;
+    dynamicMemory();
+    cout << "From Dynamic Function: " <<*p <<endl;
     return 0;
 }
