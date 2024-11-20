@@ -14,7 +14,7 @@ class Student
 
 Student fun()
 {
-    Student rakib = Student(789122,23);
+    Student rakib(7891242,23);
     return rakib;
 }
 
