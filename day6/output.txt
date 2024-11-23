@@ -1,7 +1,1 @@
-H
-e
-l
-l
-o
-H
-o
+Hello World
