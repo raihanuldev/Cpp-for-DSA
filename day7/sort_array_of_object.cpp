@@ -11,9 +11,10 @@ class Student
 };
 //Custom Compare Function
 bool cmp(Student l,Student r){
-    if(l.marks <r.marks) return true;
+    if(l.marks >= r.marks) return true;
     else return false;
 }
+
 int main()
 {
     int n;
