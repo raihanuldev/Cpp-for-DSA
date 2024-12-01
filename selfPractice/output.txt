@@ -1,3 +1,6 @@
-0
-2
--1
+Debugx: n = 2, c = 1
+1 1
+Debugx: n = 0, c = 1
+
+Debugx: n = 0, c = 1
+
