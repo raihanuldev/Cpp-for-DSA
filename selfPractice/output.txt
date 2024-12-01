@@ -1,6 +1,5 @@
-Debugx: n = 2, c = 1
-1 1
-Debugx: n = 0, c = 1
-
-Debugx: n = 0, c = 1
-
+Joy 12 99
+Asif 29 95
+Zubair 57 93
+Sakib 55 89
+Ahsan 39 86
