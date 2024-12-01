@@ -10,10 +10,16 @@ class Student{
 bool cmp(Student l,Student r)
 {
     if(l.marks > r.marks){
-         return true;
+        return true;
+    }
+    else if(l.marks < r.marks){
+         return false;
     }
     else{
-        return false;
+        if(l.roll < r.roll) return true;
+        else{
+            return false;
+        }
     }
 }
 
